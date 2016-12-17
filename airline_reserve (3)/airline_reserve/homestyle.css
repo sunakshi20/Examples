@@ -1,0 +1,154 @@
+﻿.ImageBG
+{
+    background-image: url('../images/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #000000;
+}
+
+body {
+    font-family: Arial,sans-serif;
+}
+
+#nav {
+    height:60px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+
+#nav_wrapper1{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    height:100px;
+    width:100%;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+}
+
+#nav_wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    height:100px;
+    width:100%;
+    background: #377D7a;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+}
+
+#nav_wrapper ul li{   
+    list-style:none;
+    display:inline;
+    font-weight:bold; 
+    font-size:24px;
+    margin-right:120px;
+}
+
+
+
+#nav_wrapper ul li:hover{
+    background: lightgrey;
+    transition: all 0.45s;
+}
+
+#nav_wrapper a{
+    color:white;
+    border-right:10px;
+    text-decoration:none; 
+    padding:10px;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+}
+
+#heading
+{
+    height: 60px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+#divwelcome
+{
+    height: 60px; 
+    width: 1400px; 
+    margin-top: 30px; 
+    margin-left: 100px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+    font-size: 63px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.boxes
+{
+    height: 500px; 
+    width: 900px; 
+    margin-top: 70px; 
+    margin-left: 80px;
+    position:absolute;
+}
+
+.smallbox
+{
+    height:200px; 
+    width: 400px; 
+    position: absolute; 
+}
+
+.smallbox p 
+{
+   color: white; 
+   font: bold 18px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   margin: 5px;
+}
+
+.divsearch
+{
+    float:left;
+    height: 500px; 
+    width: 500px; 
+    margin-top: 120px; 
+    margin-left: 1000px; 
+    background-color: antiquewhite;
+    border-radius: 10px;
+    opacity: 0.6;
+    /*filter: alpha(opacity=80);*/
+}
+
+#divtable
+{
+    margin-top:800px;
+    height:100px;
+    width:1400px;
+}
+
+
+.submit 
+{
+    background-color:#FF8C00;
+    border: none 0px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:5px;
+}

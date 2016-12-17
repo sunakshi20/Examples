@@ -1,0 +1,134 @@
+﻿body {
+    font-family: Arial,sans-serif;
+}
+
+#nav {
+    height:65px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    background-color:teal;
+    border:15px;
+    opacity:0.7;
+} 
+
+#nav_wrapper{
+    margin-left:500px;
+    height:82px;
+    width:800px;
+    border:20px;
+    text-align:center;
+    display:block;
+}
+
+#nav_wrapper ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#nav_wrapper ul li a {
+    text-decoration: none;
+    float: left;
+    margin-right: 120px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Arial Black", Helvetica, sans-serif;
+    color: white;
+    }
+
+#nav_wrapper ul li a:hover{
+    background: white;
+    transition: all 0.45s;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+
+#RegImageBG
+{
+    background-image: url('../images/regbackground.jpg');
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+#regheading
+{
+    height: 60px;
+    width: 100%;
+    background-color: #100306;
+    opacity: 0.6;
+}
+
+.span-icon{
+    display: inline-block;
+    vertical-align: top;
+    height: 10px;
+    width: 10px;
+}
+
+.regboxes
+{
+    height: 600px; 
+    width: 720px; 
+    margin-top: 30px; 
+    margin-left: 200px;
+    background-color:black;
+    border-radius: 5px;
+    background-color: #8f0d0d;
+    opacity:0.8;
+    position:absolute;
+}
+
+#divreg
+{
+    height: 600px; 
+    width: 475px; 
+    margin-top: 30px; 
+    margin-left: 920px; 
+    background: rgba(17,17,17,0.85);
+    border-radius: 5px;
+    position:absolute;
+}
+
+.fontstyle
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+}
+
+.submit 
+{
+    background-color:#FF8C00;
+    border: none 0px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:5px;
+}
+
+/*#nav_wrapper ul li a{
+    text-decoration:none;
+    float:left;
+    margin-right:120px;
+    font-weight:bold;
+    font-size:16px;
+    font-family:"Arial Black", Helvetica, sans-serif; 
+    color:black;
+    border: 1px solid #fff;
+    padding:20px;  
+    text-align:center;
+    display:block;
+    background:teal;
+    border-radius:15px;
+}*/
+
