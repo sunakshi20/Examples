@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SHOPPING OFFERS | SEASON DEALS</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="index.css" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <!--<link href="css/3-col-portfolio.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css"><!-- load animate -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="../jquery.flip.min.js"></script>
+    <script>
+        $(function () {
+            $(".flip-horizontal").flip({
+                trigger: 'hover'
+            });
+            $(".flip-vertical").flip({
+                axis: 'x',
+                trigger: 'hover'
+            });
+        });
+    </script>
+    <style>
+        body {
+            font-family: 'Open Sans',sans-serif;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        #flip-this {
+            height: 199px;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+            #flip-this img {
+                width: 300px;
+                height: auto;
+            }
+
+            #flip-this .back {
+                background: #808080;
+                color: #fff;
+                text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Liverpool Savings</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Liverpool Savings</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Reviews</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Page Header -->
+        <div class="jumbotron text-center dd animated bounceInDown">
+            <div class="ex">
+                <h1><img src="Final Logo.png" alt="logo" width="500" align="center" class="img-responsive animated bounceInUp"></h1>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item animated bounceInLeft">
+                <a href="https://www.amazon.com/" style="text-decoration:none;">
+                    <div id="flip-this" class="flip-horizontal">
+                        <div class="front">
+                            <img class="img-responsive animated bounceInLeft" src="Amazon.jpg" width="700" height="400" alt="Amazon Deals">
+                        </div>
+                        <div class="back">
+                            <p>Area for context and short editorials about our advertisers</p>
+                        </div>
+                    </div>
+                </a>
+                <h3 class="text-center">
+                    <a href="https://www.amazon.com/">Amazon</a>
+                </h3>
+            </div>
+
+            <div class="col-md-4 portfolio-item animated bounceInUp">
+                <a href="https://www.rado.com/" style="text-decoration:none;">
+                    <div id="flip-this" class="flip-horizontal">
+                        <div class="front">
+                            <img class="img-responsive animated bounceInUp" src="rado.gif" width="700" height="400" alt="Rado Deals">
+                        </div>
+                        <div class="back">
+                            <p>Area for context and short editorials about our advertisers</p>
+                        </div>
+                    </div>
+                </a>
+                <h3 class="text-center">
+                    <a href="https://www.rado.com/">RADO</a>
+                </h3>
+            </div>
+            <div class="col-md-4 portfolio-item animated bounceInDown">
+                <a href="https://www.walmart.com/" style="text-decoration:none;">
+                    <div id="flip-this" class="flip-horizontal">
+                        <div class="front">
+                            <img class="img-responsive animated bounceInDown" src="walmart.jpg" width="700" height="400" alt="walmart deals">
+                        </div>
+                        <div class="back">
+                            <p>Area for context and short editorials about our advertisers</p>
+                        </div>
+                    </div>
+                </a>
+                <h3 class="text-center">
+                    <a href="https://www.walmart.com/">Walmart</a>
+                </h3>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item animated bounceInUp">
+                <a href="http://www.ebay.com/" style="text-decoration:none;">
+                    <div id="flip-this" class="flip-horizontal">
+                        <div class="front">
+                            <img class="img-responsive animated bounceInUp" src="ebay.jpg" width="700" height="400" alt="">
+                        </div>
+                        <div class="back">
+                            <p>Area for context and short editorials about our advertisers</p>
+                        </div>
+                    </div>
+                </a>
+                <h3 class="text-center">
+                    <a href="http://www.ebay.com/">Ebay</a>
+                </h3>
+            </div>
+            <div class="col-md-4 portfolio-item animated bounceInRight">
+                <a href="http://www.target.com/" style="text-decoration:none;">
+                    <div id="flip-this" class="flip-horizontal">
+                        <div class="front">
+                            <img class="img-responsive animated bounceInRight" src="target.png" width="700" height="400" alt="">
+                        </div>
+                        <div class="back">
+                            <p>Area for context and short editorials about our advertisers</p>
+                        </div>
+                    </div>
+                </a>
+                <h3 class="text-center">
+                    <a href="http://www.target.com/">Target</a>
+                </h3>
+            </div>
+            <div class="col-md-4 portfolio-item animated bounceInDown">
+                <a href="http://www.express.com/" style="text-decoration:none;">
+                    <div id="flip-this" class="flip-horizontal">
+                        <div class="front">
+                            <img class="img-responsive animated bounceInDown" src="express.png" width="700" height="400" alt="">
+                        </div>
+                        <div class="back">
+                            <p>Area for context and short editorials about our advertisers</p>
+                        </div>
+                    </div>
+                </a>
+                <h3 class="text-center">
+                    <a href="http://www.express.com/">Express</a>
+                </h3>
+            </div>
+        </div>
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item animated bounceInRight">
+                <a href="http://www.macys.com/" style="text-decoration:none;">
+                    <div id="flip-this" class="flip-horizontal">
+                        <div class="front">
+                            <img class="img-responsive animated bounceInRight" src="macy's.jpg" width="700" height="400" alt="">
+                        </div>
+                        <div class="back">
+                            <p>Area for context and short editorials about our advertisers</p>
+                        </div>
+                    </div>
+                </a>
+                <h3 class="text-center">
+                    <a href="http://www.macys.com/">Macy*s</a>
+                </h3>
+            </div>
+            <div class="col-md-4 portfolio-item animated bounceInUp">
+                <a href="http://www.coach.com/" style="text-decoration:none;">
+                    <div id="flip-this" class="flip-horizontal">
+                        <div class="front">
+                            <img class="img-responsive animated bounceInUp" src="coach.jpg" width="700" height="400" alt="">
+                        </div>
+                        <div class="back">
+                            <p>Area for context and short editorials about our advertisers</p>
+                        </div>
+                    </div>
+                </a>
+                <h3 class="text-center">
+                    <a href="http://www.coach.com/">Coach</a>
+                </h3>
+            </div>
+            <div class="col-md-4 portfolio-item animated bounceInDown">
+                <a href="http://www.michaelkors.com/?ecid=MKS_Admarketplace_US_Brand_MKO_ADM_ENGL_USA_NCA_T_E_TRADEMARK_michael_kor" style="text-decoration:none;">
+                    <div id="flip-this" class="flip-horizontal">
+                        <div class="front">
+                            <img class="img-responsive animated bounceInDown" src="michael.png" width="700" height="400" alt="">
+                        </div>
+                        <div class="back">
+                            <p>Area for context and short editorials about our advertisers</p>
+                        </div>
+                    </div>
+                </a>
+                <h3 class="text-center">
+                    <a href="http://www.michaelkors.com/?ecid=MKS_Admarketplace_US_Brand_MKO_ADM_ENGL_USA_NCA_T_E_TRADEMARK_michael_kor">Michael Kors</a>
+                </h3>
+            </div>
+        </div>
+        <!-- /.row -->
+        <hr>
+
+
+        <!--You can remove this pagination later. I added it if just in case we may need it-->
+        <!-- Pagination -->
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.row -->
+        <hr>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h5 align="center"><strong>Copyright &copy; Liverpool Savings 2016</strong></h5>
+                    <div class="social-network social-circle" align="center">
+                        <a href="www.linkedin.com/in/tejas-shanthraj" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                        <a href="www.twitter.com" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="www.facebook.com" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="www.instagram.com" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+    </div>
+    <!-- /.container -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

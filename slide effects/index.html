@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="..\css\normalize.css">
+    <link rel="stylesheet" href="..\css\gridle.css">
+    <link rel="stylesheet" href="..css\demo.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="jquery.fadethis.js"></script>
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Alike' rel='stylesheet' type='text/css'>
+
+    <style>
+        /*#map {
+            height: 400px;
+            width: 60%;
+        }*/
+    </style>
+</head>
+<body>
+    <h3>Demo</h3>
+    <div id="map"></div>
+
+    <section class="main_section">
+        <section class="container">
+            <h2>Appear from left</h2>
+            <div class="grid-10">
+                <code>&lt;div class=&quot;<b>slide-left</b>&quot;&gt;&lt;/div&gt;</code>
+            </div>
+            <div class="grid-2 box_wrapper">
+                <div class="box_footprint">
+                    <div id="test" class="slide-left"></div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <script>
+            $(document).ready(function () {
+                $(window).fadeThis();
+            });
+    </script>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>jQuery FadeThis</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/gridle.css">
+        <link rel="stylesheet" href="css/demo.css">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="../src/jquery.fadethis.js"></script>
+
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Alike' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="container">
+			<section class="main_section">
+				<section class="container">
+					<h2>Appear from left</h2>
+					<div class="grid-10">
+						<code>&lt;div class=&quot;<b>slide-left</b>&quot;&gt;&lt;/div&gt;</code>
+					</div>
+					<div class="grid-2 box_wrapper">
+						<div class="box_footprint">
+							<div id="test" class="slide-left"></div>
+						</div>
+					</div>
+				</section>
+				<section class="container">
+					<h2>Appear from right</h2>
+					<div class="grid-10">
+						<code>&lt;div class=&quot;<b>slide-right</b>&quot;&gt;&lt;/div&gt;</code>
+					</div>
+					<div class="grid-2 box_wrapper">
+						<div class="box_footprint">
+							<div class="slide-right"></div>
+						</div>
+					</div>
+				</section>
+				<section class="container">
+					<h2>Appear from top</h2>
+					<div class="grid-10">
+						<code>&lt;div class=&quot;<b>slide-top</b>&quot;&gt;&lt;/div&gt;</code>
+					</div>
+					<div class="grid-2 box_wrapper">
+						<div class="box_footprint">
+							<div class="slide-top"></div>
+						</div>
+					</div>
+				</section>
+				<section class="container">
+					<h2>Appear from bottom</h2>
+					<div class="grid-10">
+						<code>&lt;div class=&quot;<b>slide-bottom</b>&quot;&gt;&lt;/div&gt;</code>
+					</div>
+					<div class="grid-2 box_wrapper">
+						<div class="box_footprint">
+							<div class="slide-bottom"></div>
+						</div>
+					</div>
+				</section>
+			</section>
+		</div>
+
+		<script>
+			$(document).ready(function() {
+				$(window).fadeThis({
+					speed: 1000,
+				});
+			});
+		</script>
+	</body>
+</html>

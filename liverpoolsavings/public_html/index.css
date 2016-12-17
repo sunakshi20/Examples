@@ -1,0 +1,68 @@
+body {
+    background: url(fireworks.gif) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.social-network a.icoFacebook:hover i, 
+.social-network a.icoInstagram:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoTwitter:hover i{ 
+}
+
+.social-circle a{
+    display: inline-table;
+    position: static;
+    font-size: 25px;
+}
+
+.social-circle a:hover i, .triggeredHover{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i{
+    
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.nounderline{
+    text-decoration:none;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.container{
+    background-color: white; 
+    opacity: 0.8;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 10, 2016, 12:01:58 AM
+    Author     : TEJAS
+*/
+
